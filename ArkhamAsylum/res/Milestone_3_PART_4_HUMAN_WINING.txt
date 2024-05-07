@@ -1,0 +1,129 @@
+// Example run: a human-player winning the game by killing the target character against the HUMAN PLAYER with the help of pet. 
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER1
+Please enter the room location: 
+CELL
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER2
+Please enter the room location: 
+DINING HALL
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+3
+------------- HINT ------------
+Current Location: CELL
+Items with the player: []
+Location of the Target: Armory
+Health of the Target: 50
+Location of the Pet: Armory
+Items in the space: [Boomerang]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+3
+Please enter the item to be picked: 
+Boomerang
+Item picked by the player successfully.
+------------- HINT ------------
+Current Location: DINING HALL
+Items with the player: []
+Location of the Target: Gaming Room
+Health of the Target: 50
+Location of the Pet: Gaming Room
+Items in the space: [Pistol, Poison]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2
+3
+Please enter the item to be picked: 
+Poison // Poison has a damage value of 50 which can be used to kill Target completely. 
+Item picked by the player successfully.
+------------- HINT ------------
+Current Location: CELL
+Items with the player: [Boomerang]
+Location of the Target: Gym 
+Health of the Target: 50
+Location of the Pet: Dining Hall
+No items present in the room.
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+4
+Please enter the space name: 
+dining hall // Since the other player is in the neighboring room, we can move the pet to current room so that the room becomes invisible to the // other players and hence if the player tries to attack the target he/she can successfully do that. 
+Pet successfully moved
+------------- HINT ------------
+Current Location: DINING HALL
+Items with the player: [Poison]
+Location of the Target: Dining Hall
+Health of the Target: 50
+Location of the Pet: Dining Hall
+Items in the space: [Pistol]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2
+5
+Please enter the item to attack: 
+poison
+Attack was successful. // Attack was successful as no other player was there in the room and PET was also there in the room. 
+------------------------------------
+Player won: PLAYER2 // Since the target character is dead the game is over. 
+------------- GAME OVER ------------

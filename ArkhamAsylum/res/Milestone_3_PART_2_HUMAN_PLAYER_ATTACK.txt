@@ -1,0 +1,132 @@
+// Example run for : a human-player making an attempt on the target character's life
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+// Y for Computer player. 
+// N for Human Player
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER1
+Please enter the room location: 
+GYM
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER2
+Please enter the room location: 
+POOL
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+3
+------------- HINT ------------
+Current Location: GYM
+Items with the player: []
+Location of the Target: Armory
+Health of the Target: 50 // In the starting of the health of Target
+Location of the Pet: Armory
+Items in the space: [Sword, Hammer, Piece of Rope, Loud Noise, Bazzuca]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+3
+Please enter the item to be picked: 
+SWORD
+Item picked by the player successfully.
+------------- HINT ------------
+Current Location: POOL
+Items with the player: []
+Location of the Target: Gaming Room
+Health of the Target: 50
+Location of the Pet: Gaming Room
+Items in the space: [Card]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2
+2
+Current player location: Pool 
+Items in the space: [Card]
+Players in the current: [PLAYER2]
+Neighbors of the space :[Batman Cave , Servants' Quarters ]
+Info of neighboring space Batman Cave : 
+Items in the space: [Tight Hat]
+Player in the room:[]
+Info of neighboring space Servants' Quarters : 
+Items in the space: [Bat Knife]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: GYM
+Items with the player: [Sword]
+Location of the Target: Gym 
+Health of the Target: 50
+Location of the Pet: Dining Hall
+Items in the space: [Hammer, Piece of Rope, Loud Noise, Bazzuca]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+5
+Please enter the item to attack: 
+SWORD // Since 2 players are not in neighboring spaces the attack was successful. 
+Attack was successful.
+------------- HINT ------------
+Current Location: POOL
+Items with the player: []
+Location of the Target: Dining Hall
+Health of the Target: 46 // The health of the target reduced to 46 from 50 after the attack. 
+Location of the Pet: Cell
+Items in the space: [Card]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2

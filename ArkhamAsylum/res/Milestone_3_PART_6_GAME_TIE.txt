@@ -1,0 +1,147 @@
+// Example run for: the target character escaping with his life and the game ending
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER1
+Please enter the room location: 
+ARMORY
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER2
+Please enter the room location: 
+GAMING ROOM
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+3
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Armory
+Health of the Target: 50
+Location of the Pet: Armory
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+5
+Please enter the item to attack: 
+POKE
+Attack was successful.
+------------- HINT ------------
+Current Location: GAMING ROOM
+Items with the player: []
+Location of the Target: Gaming Room
+Health of the Target: 45
+Location of the Pet: Gaming Room
+Items in the space: [Gun]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2
+5
+Please enter the item to attack: 
+POKE
+Attack was successful.
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Gym 
+Health of the Target: 40
+Location of the Pet: Dining Hall
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[PLAYER2]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: GAMING ROOM
+Items with the player: []
+Location of the Target: Dining Hall
+Health of the Target: 40
+Location of the Pet: Cell
+Items in the space: [Gun]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2
+2
+Current player location: Gaming Room
+Items in the space: [Gun]
+Players in the current: [PLAYER2]
+Neighbors of the space :[Armory, Dining Hall, CCTV Room]
+Info of neighboring space Armory: 
+Items in the space: [Revolver]
+Player in the room:[PLAYER1]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space CCTV Room: 
+Items in the space: [Pan, Monkey Hand]
+Player in the room:[]
+------------------------------------
+Max turn reached! // Since the maximum turn has been reached and the target character's health is still remaining the game has ended with a draw. 
+------------- GAME OVER ------------

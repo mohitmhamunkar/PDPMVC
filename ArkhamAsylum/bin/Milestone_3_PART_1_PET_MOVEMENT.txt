@@ -1,0 +1,146 @@
+// Execution of the target character's pet effect on the visibility of a space from neighboring spaces:
+// And the player moving the target character's pet
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER1
+Please enter the room location: 
+KITCHEN
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER2
+Please enter the room location: 
+DINING HALL
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+3
+// In the hint the current location of the pet is given as well as the location of the target is also given. 
+------------- HINT ------------
+Current Location: KITCHEN
+Items with the player: []
+Location of the Target: Armory
+Health of the Target: 50
+Location of the Pet: Armory 
+Items in the space: [Bottle]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+// Here we can see 3 neighbors of the current player's space including Dining Hall:
+Current player location: Kitchen 
+Items in the space: [Bottle]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Dining Hall, Guard Room , Playing Area ]
+Info of neighboring space Dining Hall: // we can see the details of the Dining Hall
+Items in the space: [Pistol, Poison]
+Player in the room:[PLAYER2] // Including the player present in the space
+Info of neighboring space Guard Room : 
+No items present in the room.
+Player in the room:[]
+Info of neighboring space Playing Area : 
+No items present in the room.
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: DINING HALL
+Items with the player: []
+Location of the Target: Gaming Room
+Health of the Target: 50
+Location of the Pet: Gaming Room
+Items in the space: [Pistol, Poison]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2
+4
+Please enter the space name: 
+DINING HALL
+Pet successfully moved
+// We have moved pet to Dining Hall. 
+------------- HINT ------------
+Current Location: KITCHEN
+Items with the player: []
+Location of the Target: Gym 
+Health of the Target: 50
+Location of the Pet: Dining Hall
+Items in the space: [Bottle]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+// Now once the pet is in the Dining Hall, the space is no longer visible to the player:
+Current player location: Kitchen 
+Items in the space: [Bottle]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Guard Room , Playing Area ] // Dining Hall is not visible.
+Info of neighboring space Guard Room : 
+No items present in the room.
+Player in the room:[]
+Info of neighboring space Playing Area : 
+No items present in the room.
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: DINING HALL
+Items with the player: []
+Location of the Target: Dining Hall
+Health of the Target: 50
+Location of the Pet: Armory
+Items in the space: [Pistol, Poison]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER2

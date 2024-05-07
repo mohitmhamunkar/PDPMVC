@@ -1,0 +1,124 @@
+// Example run: a computer-controlled player winning the game by killing the target character against human player. 
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+GYM
+Please enter the room location: 
+GYM
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+Y // This for the computer player. 
+Please enter the name of the player: 
+COMP
+Please enter the room location: 
+DINING HALL
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+3
+------------- HINT ------------
+Current Location: GYM
+Items with the player: []
+Location of the Target: Armory
+Health of the Target: 50
+Location of the Pet: Armory
+Items in the space: [Sword, Hammer, Piece of Rope, Loud Noise, Bazzuca]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: GYM
+3
+Please enter the item to be picked: 
+Piece of Rope
+Item picked by the player successfully.
+------------- HINT ------------
+Current Location: DINING HALL
+Items with the player: []
+Location of the Target: Gaming Room
+Health of the Target: 50
+Location of the Pet: Gaming Room
+Items in the space: [Pistol, Poison]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: 
+COMP
+Item picked up by the computer Poison
+------------- HINT ------------
+Current Location: GYM
+Items with the player: []
+Location of the Target: GYM
+Health of the Target: 50
+Location of the Pet: Gaming Room
+Items in the space: [Pistol, Poison]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+5
+Please enter the item to attack: 
+Piece of Rope
+Attack was successful.
+------------- HINT ------------
+Current Location: DINING HALL
+Items with the player: [Poison]
+Location of the Target: Dining Hall
+Health of the Target: 1 // The health of the target after the attack. 
+Location of the Pet: Cell
+Items in the space: [Pistol]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: 
+COMP
+Computer player attacks the target using Poison
+-------------------------------------
+Player won: COMP
+------------- GAME OVER ------------

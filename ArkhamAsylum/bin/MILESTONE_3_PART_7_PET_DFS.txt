@@ -1,0 +1,742 @@
+// Example run for the pet DFS traversal:
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+1
+Is this a computer player (Y/N):
+N
+Please enter the name of the player: 
+PLAYER1
+Please enter the room location: 
+ARMORY
+Specify the maximum number of the items: 
+10
+Player Added!
+Please enter from one of the following commands:
+Press 1. to add player.
+Press 2. to create world map.
+Press 3. to start game.
+3
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Armory
+Health of the Target: 50
+Location of the Pet: Armory <-----------------PET LOCATION
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Gaming Room
+Health of the Target: 50
+Location of the Pet: Gaming Room <-----------------PET LOCATION
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Dining Hall, Cell]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Gym 
+Health of the Target: 50
+Location of the Pet: Dining Hall <-----------------PET LOCATION
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Dining Hall
+Health of the Target: 50
+Location of the Pet: Cell <-----------------PET LOCATION
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Cell
+Health of the Target: 50
+Location of the Pet: Intense Treatment Room <-----------------PET LOCATION PLEASE SCROLL COMPLETE DOWN!!!!
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Intense Treatment Room
+Health of the Target: 50
+Location of the Pet: Cell
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Medical
+Health of the Target: 50
+Location of the Pet: Playing Area 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Maze
+Health of the Target: 50
+Location of the Pet: Kitchen 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Kitchen 
+Health of the Target: 50
+Location of the Pet: Guard Room 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Pool 
+Health of the Target: 50
+Location of the Pet: Servants' Quarters 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Library 
+Health of the Target: 50
+Location of the Pet: Pool 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Batman Cave 
+Health of the Target: 50
+Location of the Pet: Batman Cave 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Jailer Room 
+Health of the Target: 50
+Location of the Pet: Jailer Room 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Watch Tower 
+Health of the Target: 50
+Location of the Pet: Library 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Guard Room 
+Health of the Target: 50
+Location of the Pet: Watch Tower 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Pantry
+Health of the Target: 50
+Location of the Pet: Library 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Servants' Quarters 
+Health of the Target: 50
+Location of the Pet: CCTV Room
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Gordan Room 
+Health of the Target: 50
+Location of the Pet: Gordan Room 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: CCTV Room
+Health of the Target: 50
+Location of the Pet: CCTV Room
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Playing Area 
+Health of the Target: 50
+Location of the Pet: Library 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: Garden 
+Health of the Target: 50
+Location of the Pet: Jailer Room 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
+Current player location: Armory
+Items in the space: [Revolver]
+Players in the current: [PLAYER1]
+Neighbors of the space :[Gaming Room, Dining Hall, Cell]
+Info of neighboring space Gaming Room: 
+Items in the space: [Gun]
+Player in the room:[]
+Info of neighboring space Dining Hall: 
+Items in the space: [Pistol, Poison]
+Player in the room:[]
+Info of neighboring space Cell: 
+Items in the space: [Boomerang]
+Player in the room:[]
+
+------------- HINT ------------
+Current Location: ARMORY
+Items with the player: []
+Location of the Target: 
+Health of the Target: 50
+Location of the Pet: Armory <-----------------PET LOCATION Pet has come back to the starting position from where it started. 
+Items in the space: [Revolver]
+You can always attack target by using POKE command. Damage value of 5
+-------------------------------
+Please enter from one of the following commands:
+Press 1. to move player.[TURN]
+Press 2. to look around. [TURN]
+Press 3. to pick an item. [TURN]
+Press 4. to move Pet to another location. [TURN]
+Press 5. to ATTACK target. [TURN]
+Press 6. to display world information.
+Press 7. to display player information.
+Press 8. to display specific space information
+Current player turn: PLAYER1
+2
